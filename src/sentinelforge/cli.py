@@ -45,7 +45,15 @@ def _get_sample_data_dir() -> str:
             return str(path)
     return str(candidates[0])
 
+def _print_banner():
 
+    banner = f"""
+    ╔══════════════════════════════════════════════════╗
+    ║                 SOC Dashboard                    ║
+    ║       Autonomous SOC Analyst Platform            ║
+    ╚══════════════════════════════════════════════════╝
+    """
+    print(banner)
 
 
 
