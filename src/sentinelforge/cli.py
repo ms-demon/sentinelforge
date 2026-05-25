@@ -46,17 +46,7 @@ def _get_sample_data_dir() -> str:
     return str(candidates[0])
 
 
-def _print_banner():
-    """Print the SentinelForge banner."""
-    banner = f"""
-    ╔══════════════════════════════════════════════════╗
-    ║           SentinelForge v{__version__}                  ║
-    ║       Autonomous SOC Analyst Platform            ║
-    ║                                                  ║
-    ║   Created by Corey A. Wade (CISSP, CCIE #14124)  ║
-    ╚══════════════════════════════════════════════════╝
-    """
-    print(banner)
+
 
 
 def _print_alert_summary(alerts, title="Alert Summary"):
