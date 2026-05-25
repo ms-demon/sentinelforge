@@ -190,7 +190,7 @@ def run_demo():
 
     # Final Summary
     print(f"\n{'='*70}")
-    print(f"  DEMO COMPLETE — SentinelForge Pipeline Summary")
+
     print(f"{'='*70}")
     print(f"  Logs ingested:     {len(sample_logs)}")
     print(f"  Alerts created:    {len(alerts)}")
@@ -199,7 +199,7 @@ def run_demo():
     print(f"  Incidents:         {len(incidents)}")
     print(f"  Hunts with hits:   {len(hunt_results)}")
     print(f"\n  Launch the dashboard:")
-    print(f"    sentinelforge dashboard")
+    print(f"   Soc dashboard")
     print(f"    Then open http://localhost:5000")
     print(f"{'='*70}\n")
 
