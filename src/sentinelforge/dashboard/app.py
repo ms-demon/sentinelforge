@@ -111,7 +111,7 @@ def _fallback_dashboard() -> str:
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SentinelForge SOC Dashboard</title>
+<title>SOC Dashboard</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0}
@@ -133,7 +133,7 @@ th{color:#94a3b8;font-size:0.75rem;text-transform:uppercase}
 </style>
 </head>
 <body>
-<div class="header"><h1>SentinelForge</h1><span class="badge">LIVE</span><span style="color:#64748b">Autonomous SOC Platform</span></div>
+<div class="header"><h1>SOC Dashboard</h1><span class="badge">LIVE</span><span style="color:#64748b">Autonomous SOC Platform</span></div>
 <div class="grid" id="metrics">
 <div class="card"><h3>Total Alerts</h3><div class="value" id="total-alerts">-</div></div>
 <div class="card"><h3>Total Incidents</h3><div class="value" id="total-incidents">-</div></div>
